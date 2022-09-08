@@ -159,11 +159,11 @@ def upload_EntireDirectoryToFTPSite(Local_Directory, FTP_Site_Directory, FTP_Sit
 if __name__ == "__main__":
     
     ## assign the parameter values
-    params = {"Local_Directory": "D:/porjects/quarto/msbicoe_blog/_site", 
-              "FTP_Site_Directory": "/", 
-              "FTP_Site": "ftp.smartspreadsheet.com", 
-              "username": "0102281|smartspread", 
-              "password": "iasfatr061"
+    params = {"Local_Directory": "Your_Local_Directory", 
+              "FTP_Site_Directory": "FTP_Site_Directory", 
+              "FTP_Site": "FTP_HostName", 
+              "username": "Your FTP Username", 
+              "password": "Your FTP Password"
             }
     
     upload_EntireDirectoryToFTPSite(**params)
